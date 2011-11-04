@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ncclatex
+# catalog-date 2007-02-23 22:01:12 +0100
+# catalog-license lppl
+# catalog-version 1.5
 Name:		texlive-ncclatex
 Version:	1.5
 Release:	1
@@ -70,6 +76,7 @@ of the ncctools bundle.
 %doc %{_texmfdistdir}/doc/latex/ncclatex/ncclatex.pdf
 %doc %{_texmfdistdir}/doc/latex/ncclatex/ncclatex.tex
 %doc %{_texmfdistdir}/doc/latex/ncclatex/nccnews.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -80,3 +87,5 @@ of the ncctools bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
