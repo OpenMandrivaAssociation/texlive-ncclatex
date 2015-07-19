@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-ncclatex
 Version:	1.5
-Release:	9
+Release:	10
 Summary:	An extended general-purpose class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ncclatex
