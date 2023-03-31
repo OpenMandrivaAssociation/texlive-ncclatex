@@ -1,6 +1,6 @@
 Name:		texlive-ncclatex
 Version:	15878
-Release:	1
+Release:	2
 Summary:	An extended general-purpose class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ncclatex
