@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	An extended general-purpose class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ncclatex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ncclatex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ncclatex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ncclatex.doc.r%{version}.tar.xz
